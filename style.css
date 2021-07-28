@@ -1,0 +1,98 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.container{
+    margin: 0 auto;
+    color: white;
+    height: 500px;
+    width: 900px;
+   
+}
+.row{
+    height: 100%;
+    width: auto;
+
+}
+.sedans{
+    background-color: rgb(238, 106, 12);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px 55px 35px 35px;
+  
+}
+.suvs{background-color: rgb(12, 169, 241);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px 55px 35px 35px;
+    
+}
+.luxury{
+    background-color: #055050;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px 55px 35px 35px;
+    
+}
+img{
+    width: 40px;
+    
+}
+h1{
+    
+}
+p{
+   
+    
+    text-align: left;
+    font-size: 16px;
+    
+    
+    
+
+}
+a{
+  
+    padding: 10px 15px;
+    background: white;
+    border-radius: 20px;
+    width: 175px;
+    text-align: center;
+}
+.button-sedans{color: rgb(238, 157, 26);
+
+}
+.button-suvs{
+    color: rgb(12, 169, 241);
+}
+.button-luxury{
+    color: rgb(6, 48, 49);
+}
+.button-sedans:hover{
+    background-color: rgb(238, 106, 12);
+    border: solid 2px white;
+    color: white;
+}
+.button-suvs:hover{
+    background-color: rgb(12, 169, 241);
+    border: solid 2px white;
+    color: white;
+}
+.button-luxury:hover{
+    background-color: #055050;
+    border: solid 2px white;
+    color: white;
+}
+
+
